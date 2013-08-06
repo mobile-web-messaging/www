@@ -1,7 +1,12 @@
 *.gem
 *.rbc
+.awestruct
+.awestruct_ignore
 .bundle
 .config
+.sass-cache/
+_site/
+_vendor
 coverage
 InstalledFiles
 lib/bundler/man
