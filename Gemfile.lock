@@ -25,16 +25,19 @@ GEM
     compass-960-plugin (0.10.4)
       compass (>= 0.10.0)
     ffi (1.9.0)
+    ffi (1.9.0-java)
     fssm (0.2.10)
     git (1.2.5)
     haml (4.0.3)
       tilt
+    kramdown (1.1.0)
     listen (1.2.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     mime-types (1.23)
     nokogiri (1.5.10)
+    nokogiri (1.5.10-java)
     rack (1.5.2)
     rake (10.1.0)
     rb-fsevent (0.9.3)
@@ -42,7 +45,6 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    redcarpet (3.0.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ruby-s3cmd (0.1.5)
@@ -52,10 +54,11 @@ GEM
       sass (>= 3.2.0)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   asciidoctor
   awestruct
+  kramdown
   rake
-  redcarpet

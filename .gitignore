@@ -4,6 +4,7 @@
 .awestruct_ignore
 .bundle
 .config
+.rvmrc
 .sass-cache/
 _site/
 _vendor
