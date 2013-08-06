@@ -1,4 +1,9 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: Mobile and Web Messaging
+title: Mobile and Web Messaging
+author :
+  name : Jeff Mesnil
+  email : jmesnil@gmail.com
+  github : jmesnil
+  twitter : jmesnil
+  url: http://jmesnil.net/about/
 base_url: ''
