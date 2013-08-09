@@ -12,13 +12,13 @@
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
-    .navbar.navbar-fixed-top
+    .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
         .container
-          %a.brand{ :href=>"#{site.base_url}" } #{site.name}
+          %a.brand{ :href=>"/" } #{site.name}
           %ul.nav
-            %li
-              %a{ :href=>"#{site.base_url}book" } Book
+            %li{:class => "#{'active' if page.url == '/book/'}"}
+              %a{ :href=>"/book/" } Book
     .container
       ~ content
       %hr
