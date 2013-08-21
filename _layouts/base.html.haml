@@ -6,26 +6,30 @@
     %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
     :css
       body {
-        padding-top: 60px;
+        padding-top: 70px;
       }
-    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/styles.css" }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" }
+    -#%link{ :rel=>'stylesheet', :type=>'text/css', :href=>"/stylesheets/jumbotron-narrow.css" }
     /[if lt IE 9]
-      %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
+      %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
-    .navbar.navbar-fixed-top.navbar-inverse
-      .navbar-inner
-        .container
-          %a.brand{ :href=>"/" } #{site.name}
-          %ul.nav
-            %li{:class => "#{'active' if page.url == '/book/'}"}
-              %a{ :href=>"/book/" } Book
     .container
+      %nav.header{ :role=>"navigation" }
+        %ul.nav.nav-pills.pull-right
+          %li
+            %a{ :href=>"/book/" } Book
+          %li
+            %a{ :href=>"/news/" } News
+        %h3
+          %a.text-muted{ :href=>"/" } #{site.name}
+
       ~ content
+
       %hr
       %footer
-        #copyright
-          %a{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy;&nbsp;2013
-          %a{ :href=>"#{site.author.url}" }= site.author.name 
-    -# Uncomment script tags (remove leading -#) when you're ready to use behaviors
-    -# %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
-    -# %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-collapse.js" }
+        %a{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy;&nbsp;2013
+        %a{ :href=>"#{site.author.url}" }= site.author.name 
+    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
+    %script{ :type=>'text/javascript', :src=>'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js' }
+    
