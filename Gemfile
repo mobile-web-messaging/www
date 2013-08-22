@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'asciidoctor'
-gem 'redcarpet'
 gem 'awestruct'
+gem 'redcarpet'
 gem 'rake'
