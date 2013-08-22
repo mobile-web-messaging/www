@@ -6,4 +6,9 @@ author :
   github : jmesnil
   twitter : jmesnil
   url: http://jmesnil.net/about/
-base_url: ''
+
+profiles: 
+  production: 
+    base_url: http://mobile-web-messaging.net/
+    deploy: 
+      host: github_pages 
