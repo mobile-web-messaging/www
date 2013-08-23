@@ -6,7 +6,7 @@ title: Home
 .row
   .col-md-12
 
-    %h1.text-center Messaging protocols for Mobile devices and the Web
+    %h1.text-center Messaging Protocols for Mobile Devices and the Web
 
     .pull-left{ :style => "padding: 1em"}
       %img{ :src=>'/images/cover-small.png'}
@@ -42,9 +42,13 @@ title: Home
         %li
           %a.text-info{:href=>post.url}= post.title
           %span.text-muted.pull-right= post.date.strftime('%B %-d, %Y')
+          %p
+            #{summarize( html_to_text( post.content ), 50 )}
+            %a.text-info{:href=>post.url}
+              %i.icon-double-angle-right
     
     %p
-      %a.btn.btn-default{ :href=>'/news/' } More &raquo; 
+      %a.btn.btn-default{ :href=>'/news/' } More News &raquo; 
 
   .col-md-6
     <a class="twitter-timeline" href="https://twitter.com/mobilewebmsg" data-widget-id="370112171989934080">Tweets by @mobilewebmsg</a>

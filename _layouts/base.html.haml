@@ -4,11 +4,8 @@
     %meta{ :charset=>'utf-8' }
     %title= "#{site.title} &mdash; #{page.title}"
     %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
+    %link{ :rel=>'alternate', :type=>'application/atom+xml', :href=>'/feed.atom', :title=>'News feed' }
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" }
-    :css
-      body {
-        padding-top: 70px;
-      }
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" }
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" }
     %link{ :rel=>'stylesheet', :href=>"http://fonts.googleapis.com/css?family=Cantarell" }
@@ -21,7 +18,7 @@
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
-    %nav.navbar.navbar-default.navbar-fixed-top{ :role=>"navigation" }
+    %nav.navbar.navbar-default.navbar-static-top{ :role=>"navigation" }
       .navbar-header
         %button.navbar-toggle{ :type=>'button', 'data-toggle'=>'collapse', 'data-target'=>'.navbar-ex1-collapse'}
           %span.sr-only Toggle navigation
@@ -41,7 +38,7 @@
       ~ content
 
       %hr
-      %footer
+      %footer.text-center
         %a{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy;&nbsp;2013
         %a{ :href=>"#{site.author.url}" }= site.author.name 
 
