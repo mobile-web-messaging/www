@@ -4,6 +4,7 @@
     %meta{ :charset=>'utf-8' }
     %title= "#{site.title} &mdash; #{page.title}"
     %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" }
     :css
       body {
         padding-top: 70px;
@@ -22,13 +23,15 @@
   %body
     .container
       %nav.header{ :role=>"navigation" }
-        %ul.nav.nav-pills.pull-right
+        %ul.nav.nav-tabs
           %li
+            %a.brand{ :href=>"/" } #{site.name}
+          %li.pull-right
+            %a{ :href=>"/contact/" } Contact
+          %li.pull-right
             %a{ :href=>"/book/" } Book
-          %li
+          %li.pull-right
             %a{ :href=>"/news/" } News
-        %h3
-          %a{ :href=>"/" } #{site.name}
 
       ~ content
 
