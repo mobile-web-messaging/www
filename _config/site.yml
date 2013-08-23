@@ -7,6 +7,8 @@ author :
   twitter : jmesnil
   url: http://jmesnil.net/about/
 
+google_analytics: UA-43441949-1
+
 profiles: 
   production: 
     base_url: http://mobile-web-messaging.net/
