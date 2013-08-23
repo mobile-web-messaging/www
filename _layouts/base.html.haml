@@ -21,18 +21,23 @@
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
-    .container
-      %nav.header{ :role=>"navigation" }
-        %ul.nav.nav-tabs
+    %nav.navbar.navbar-default.navbar-fixed-top{ :role=>"navigation" }
+      .navbar-header
+        %button.navbar-toggle{ :type=>'button', 'data-toggle'=>'collapse', 'data-target'=>'.navbar-ex1-collapse'}
+          %span.sr-only Toggle navigation
+          %span
+            %i.icon-reorder
+        %a.navbar-brand{ :href=>"/" } #{site.name}
+      .collapse.navbar-collapse.navbar-ex1-collapse
+        %ul.nav.navbar-nav.navbar-right
           %li
-            %a.brand{ :href=>"/" } #{site.name}
-          %li.pull-right
-            %a{ :href=>"/contact/" } Contact
-          %li.pull-right
-            %a{ :href=>"/book/" } Book
-          %li.pull-right
-            %a{ :href=>"/news/" } News
-
+            %a{ :href=>'/contact/'} Contact
+          %li
+            %a{ :href=>'/book/'} Book
+          %li
+            %a{ :href=>'/news/'} News
+    
+    .container
       ~ content
 
       %hr
@@ -40,7 +45,7 @@
         %a{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy;&nbsp;2013
         %a{ :href=>"#{site.author.url}" }= site.author.name 
 
-    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
+    %script{ :type=>'text/javascript', :src=>'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
     %script{ :type=>'text/javascript', :src=>'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js' }
     = google_analytics_async
     
