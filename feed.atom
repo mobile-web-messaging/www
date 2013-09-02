@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4242/</id>
+  <title>Mobile &amp; Web Messaging</title>
+  <author>
+    <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
+  </author>
+  <updated>2013-09-02T14:11:04+02:00</updated>
+  <link href="http://localhost:4242/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4242/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://localhost:4242/news/2013/09/02/official-announcement/</id>
+    <title>Official Announcement</title>
+    <updated>2013-09-02T14:11:04+02:00</updated>
+    <published>2013-09-02T08:41:09+00:00</published>
+    <link href="http://localhost:4242/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
+    <summary>
+      I have agreed with O&#39;Reilly Media to write a book title Mobile &amp; Web Messaging.
+      
+      The book will be an introduction to the concepts of messaging protocols (and how they differ from request/reply protocols) targeted for mobile and Web developers.
+      
+      Messaging protocols have been used for a long time in the enterprise software (such as JMS on Java platform) and they start to permeate in mobile and Web environments.
+      
+      These environments have very different characteristics from enterprise environments and the messaging protocols targeted for them are also different from enterprise messaging protocols.
+      
+      O&#39;Reilly agreed to license this book under a creative commons license. That...
+    </summary>
+    <content type="html">
+      &lt;p&gt;I have agreed with &lt;a href=&quot;http://oreilly.com&quot;&gt;O'Reilly Media&lt;/a&gt; to write a book title &lt;em&gt;Mobile &amp;amp; Web Messaging&lt;/em&gt;.&lt;/p&gt;
+      
+      &lt;p&gt;The book will be an introduction to the concepts of messaging protocols (and how they differ from request/reply protocols) targeted for &lt;em&gt;mobile and Web developers&lt;/em&gt;.&lt;/p&gt;
+      
+      &lt;p&gt;Messaging protocols have been used for a long time in the enterprise software (such as JMS on Java platform) and they start to permeate in mobile and Web environments.&lt;/p&gt;
+      
+      &lt;p&gt;These environments have very different characteristics from enterprise environments and the messaging protocols targeted for them are also different from enterprise messaging protocols.&lt;/p&gt;
+      
+      &lt;p&gt;O'Reilly agreed to license this book under a &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en_US&quot;&gt;creative commons license&lt;/a&gt;. That is important since this means the book will be written in the &lt;em&gt;open&lt;/em&gt; and the source of the code hosted at &lt;a href=&quot;https://github.com/mobile-web-messaging/book/&quot;&gt;GitHub&lt;/a&gt;. Examples of the book will also be available on GitHub.&lt;/p&gt;
+      
+      &lt;p&gt;This is a long dream come true as I always wanted to write a book. I often joke that I prefer to write about code than  write code... It's time to show that I mean it.&lt;/p&gt;
+      
+      &lt;p&gt;&lt;a href=&quot;http://redhat.com&quot;&gt;Red Hat&lt;/a&gt; kindly accepted to let me spend some of my work time working on this book.&lt;/p&gt;
+      
+      &lt;p&gt;News about the book will be posted &lt;a href=&quot;.&quot;&gt;here&lt;/a&gt; and on Twitter:&lt;/p&gt;
+      
+      &lt;div&gt;
+      &lt;a href=&quot;https://twitter.com/mobilewebmsg&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot; data-size=&quot;large&quot;&gt;Follow @mobilewebmsg&lt;/a&gt;
+      &lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');&lt;/script&gt;
+      &lt;/div&gt;
+      
+      &lt;p&gt;More to come...&lt;/p&gt;
+    </content>
+  </entry>
+</feed>
