@@ -183,17 +183,59 @@ task :travis do
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
   File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_TOKEN']}:@github.com") }
-  set_pub_dates 'master'
   system 'git branch gh-pages origin/gh-pages'
-  run_awestruct '-P production -g --force', :spawn => false
-  gen_rdoc
-  run_awestruct '-P production --deploy', :spawn => false
+  run_awestruct '-P production -g --deploy', :spawn => false
   File.delete '.git/credentials'
+  $?.exitstatus
 end
 
 # Execute Awestruct
-def run_awestruct(args)
-  system "#{$use_bundle_exec ? 'bundle exec ' : ''}awestruct #{args}" 
+def run_awestruct(args, opts = {})
+  cmd = "#{$use_bundle_exec ? 'bundle exec ' : ''}awestruct #{args}"
+  if RUBY_VERSION < '1.9'
+    opts[:spawn] = false
+  else
+    opts[:spawn] ||= true
+  end
+
+  if opts[:spawn]
+    puts cmd
+    pid = spawn cmd
+    Signal.trap(:INT) {
+      # wait for rack server to receive signal and shutdown
+      Process.wait pid
+      # now we go down
+      exit
+    }
+    Process.wait pid
+  else
+    sh cmd
+  end
+
+=begin
+  WINDOWS = RbConfig::CONFIG['host_os'] =~ /mswin|mingw/
+
+  if opts[:spawn]
+    puts cmd
+    spawn_opts = {}
+    spawn_opts[:pgroup] = 0 unless WINDOWS
+    spawn_opts[:new_pgroup] = 0 if WINDOWS
+    pid = spawn cmd, spawn_opts
+    Signal.trap(:INT) {
+      # only attempt to kill if running under a different pgrp
+      if Process.getpgrp != Process.getpgid(pid)
+        Process.kill(:INT, pid)
+      # otherwise, just wait for it to receive its signal
+      else
+        Process.wait pid
+      end
+      exit
+    }
+    Process.wait pid
+  else
+    sh cmd
+  end
+=end
 end
 
 # A cross-platform means of finding an executable in the $PATH.
