@@ -14,3 +14,4 @@ profiles:
     base_url: http://mobile-web-messaging.net/
     deploy: 
       host: github_pages 
+      branch: gh-pages
