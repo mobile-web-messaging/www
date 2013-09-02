@@ -11,13 +11,13 @@ The book will be an introduction to the concepts of messaging protocols (and how
 
 Messaging protocols have been used for a long time in the enterprise software (such as JMS on Java platform) and they start to permeate in mobile and Web environments.
 
-These environments have very different characteristics from enterprise environments and the messaging protocols targeted for them are also different from enterprise messaging protocols.
+These environments have different characteristics from enterprise environments and the messaging protocols targeted for them differ from enterprise messaging protocols.
 
 O'Reilly agreed to license this book under a [creative commons license][commons]. That is important since this means the book will be written in the _open_ and the source of the code hosted at [GitHub][github]. Examples of the book will also be available on GitHub.
 
 This is a long dream come true as I always wanted to write a book. I often joke that I prefer to write about code than  write code... It's time to show that I mean it.
 
-[Red Hat][redhat] kindly accepted to let me spend some of my work time working on this book.
+I am grateful that my employer, [Red Hat][redhat], kindly accepted to let me spend some of my work time working on this book.
 
 News about the book will be posted [here](.) and on Twitter:
 
