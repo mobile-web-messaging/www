@@ -9,6 +9,7 @@
 _site/
 _vendor
 coverage
+Gemfile.lock
 InstalledFiles
 lib/bundler/man
 pkg
