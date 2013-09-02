@@ -5,13 +5,13 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2013-09-02T15:08:43+00:00</updated>
+  <updated>2013-09-02T15:47:46+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2013-09-02T15:08:43+00:00</updated>
+    <updated>2013-09-02T15:47:46+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
@@ -21,9 +21,9 @@
       
       Messaging protocols have been used for a long time in the enterprise software (such as JMS on Java platform) and they start to permeate in mobile and Web environments.
       
-      These environments have very different characteristics from enterprise environments and the messaging protocols targeted for them are also different from enterprise messaging protocols.
+      These environments have different characteristics from enterprise environments and the messaging protocols targeted for them differ from enterprise messaging protocols.
       
-      O&#39;Reilly agreed to license this book under a creative commons license. That...
+      O&#39;Reilly agreed to license this book under a creative commons license. That is important since...
     </summary>
     <content type="html">
       &lt;p&gt;I have agreed with &lt;a href=&quot;http://oreilly.com&quot;&gt;O'Reilly Media&lt;/a&gt; to write a book title &lt;em&gt;Mobile &amp;amp; Web Messaging&lt;/em&gt;.&lt;/p&gt;
@@ -32,13 +32,13 @@
       
       &lt;p&gt;Messaging protocols have been used for a long time in the enterprise software (such as JMS on Java platform) and they start to permeate in mobile and Web environments.&lt;/p&gt;
       
-      &lt;p&gt;These environments have very different characteristics from enterprise environments and the messaging protocols targeted for them are also different from enterprise messaging protocols.&lt;/p&gt;
+      &lt;p&gt;These environments have different characteristics from enterprise environments and the messaging protocols targeted for them differ from enterprise messaging protocols.&lt;/p&gt;
       
       &lt;p&gt;O'Reilly agreed to license this book under a &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en_US&quot;&gt;creative commons license&lt;/a&gt;. That is important since this means the book will be written in the &lt;em&gt;open&lt;/em&gt; and the source of the code hosted at &lt;a href=&quot;https://github.com/mobile-web-messaging/book/&quot;&gt;GitHub&lt;/a&gt;. Examples of the book will also be available on GitHub.&lt;/p&gt;
       
       &lt;p&gt;This is a long dream come true as I always wanted to write a book. I often joke that I prefer to write about code than  write code... It's time to show that I mean it.&lt;/p&gt;
       
-      &lt;p&gt;&lt;a href=&quot;http://redhat.com&quot;&gt;Red Hat&lt;/a&gt; kindly accepted to let me spend some of my work time working on this book.&lt;/p&gt;
+      &lt;p&gt;I am grateful that my employer, &lt;a href=&quot;http://redhat.com&quot;&gt;Red Hat&lt;/a&gt;, kindly accepted to let me spend some of my work time working on this book.&lt;/p&gt;
       
       &lt;p&gt;News about the book will be posted &lt;a href=&quot;.&quot;&gt;here&lt;/a&gt; and on Twitter:&lt;/p&gt;
       
