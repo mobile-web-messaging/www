@@ -5,13 +5,13 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2013-09-02T15:47:46+00:00</updated>
+  <updated>2013-09-03T17:43:14+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2013-09-02T15:47:46+00:00</updated>
+    <updated>2013-09-03T17:43:14+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
