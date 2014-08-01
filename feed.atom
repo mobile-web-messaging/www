@@ -5,17 +5,17 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2013-09-03T17:43:14+00:00</updated>
+  <updated>2014-08-01T09:26:49+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2013-09-03T17:43:14+00:00</updated>
+    <updated>2014-08-01T09:26:49+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
-      I have agreed with O&#39;Reilly Media to write a book title Mobile &amp; Web Messaging.
+      I have agreed with O&#39;Reilly Media to write a book titled Mobile &amp; Web Messaging.
       
       The book will be an introduction to the concepts of messaging protocols (and how they differ from request/reply protocols) targeted for mobile and Web developers.
       
@@ -26,7 +26,7 @@
       O&#39;Reilly agreed to license this book under a creative commons license. That is important since...
     </summary>
     <content type="html">
-      &lt;p&gt;I have agreed with &lt;a href=&quot;http://oreilly.com&quot;&gt;O'Reilly Media&lt;/a&gt; to write a book title &lt;em&gt;Mobile &amp;amp; Web Messaging&lt;/em&gt;.&lt;/p&gt;
+      &lt;p&gt;I have agreed with &lt;a href=&quot;http://oreilly.com&quot;&gt;O'Reilly Media&lt;/a&gt; to write a book titled &lt;em&gt;Mobile &amp;amp; Web Messaging&lt;/em&gt;.&lt;/p&gt;
       
       &lt;p&gt;The book will be an introduction to the concepts of messaging protocols (and how they differ from request/reply protocols) targeted for &lt;em&gt;mobile and Web developers&lt;/em&gt;.&lt;/p&gt;
       
