@@ -5,13 +5,13 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2014-08-01T09:36:59+00:00</updated>
+  <updated>2014-08-01T09:47:28+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
     <id>http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/</id>
     <title>O'Reilly Book Page is Online</title>
-    <updated>2014-08-01T09:36:59+00:00</updated>
+    <updated>2014-08-01T09:47:28+00:00</updated>
     <published>2014-07-08T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/" rel="alternate" type="text/html" />
     <summary>
@@ -19,7 +19,7 @@
       
       It should be available in printed edition at the end of August or beginning of September.
       
-      The book cover has already been drawn and represent a song thrush:
+      The book cover has already been drawn and represents a song thrush:
       
       
       
@@ -33,7 +33,7 @@
       
       &lt;p&gt;It should be available in printed edition at the end of August or beginning of September.&lt;/p&gt;
       
-      &lt;p&gt;The book cover has already been drawn and represent a &lt;a href=&quot;http://en.wikipedia.org/wiki/Song_thrush&quot;&gt;song thrush&lt;/a&gt;:&lt;/p&gt;
+      &lt;p&gt;The book cover has already been drawn and represents a &lt;a href=&quot;http://en.wikipedia.org/wiki/Song_thrush&quot;&gt;song thrush&lt;/a&gt;:&lt;/p&gt;
       
       &lt;p&gt;&lt;img src=&quot;http://akamaicovers.oreilly.com/images/0636920032366/rc_cat.gif&quot; alt=&quot;Book Cover&quot;&gt;&lt;/p&gt;
       
@@ -45,7 +45,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2014-08-01T09:36:59+00:00</updated>
+    <updated>2014-08-01T09:47:28+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
