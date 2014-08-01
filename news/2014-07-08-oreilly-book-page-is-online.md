@@ -8,7 +8,7 @@ The book page on O'Reilly web site is now [online][oreilly] and the first chapte
 
 It should be available in printed edition at the end of August or beginning of September.
 
-The book cover has already been drawn and represent a [song thrush][thrush]:
+The book cover has already been drawn and represents a [song thrush][thrush]:
 
 ![Book Cover](http://akamaicovers.oreilly.com/images/0636920032366/rc_cat.gif)
 
