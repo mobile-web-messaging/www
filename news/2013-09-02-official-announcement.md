@@ -4,7 +4,7 @@ title: Official Announcement
 date: '2013-09-02 08:41:09'
 ---
 
-I have agreed with [O'Reilly Media][oreilly] to write a book title _Mobile &amp; Web Messaging_.
+I have agreed with [O'Reilly Media][oreilly] to write a book titled _Mobile &amp; Web Messaging_.
 
 
 The book will be an introduction to the concepts of messaging protocols (and how they differ from request/reply protocols) targeted for _mobile and Web developers_.
