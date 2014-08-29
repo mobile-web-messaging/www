@@ -5,13 +5,13 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2014-08-26T12:30:55+00:00</updated>
+  <updated>2014-08-29T11:29:13+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
     <id>http://mobile-web-messaging.net/news/2014/08/26/back-to-tech-school-sale/</id>
     <title>Back to (Tech) School Sale</title>
-    <updated>2014-08-26T12:30:55+00:00</updated>
+    <updated>2014-08-29T11:29:13+00:00</updated>
     <published>2014-08-26T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/08/26/back-to-tech-school-sale/" rel="alternate" type="text/html" />
     <summary>
@@ -33,7 +33,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/</id>
     <title>O'Reilly Book Page is Online</title>
-    <updated>2014-08-26T12:30:55+00:00</updated>
+    <updated>2014-08-29T11:29:13+00:00</updated>
     <published>2014-07-08T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/" rel="alternate" type="text/html" />
     <summary>
@@ -67,7 +67,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2014-08-26T12:30:55+00:00</updated>
+    <updated>2014-08-29T11:29:13+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
