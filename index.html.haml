@@ -47,7 +47,7 @@ title: Home
   .col-md-6
     %h2 Latest News
     %ul.list-unstyled
-      - site.posts[0,5].each do |post|
+      - site.posts[0,3].each do |post|
         %li
           %a.text-info{:href=>post.url}= post.title
           %span.text-muted.pull-right= post.date.strftime('%B %-d, %Y')
