@@ -5,13 +5,35 @@
   <author>
     <name>{"name"=>"Jeff Mesnil", "email"=>"jmesnil@gmail.com", "github"=>"jmesnil", "twitter"=>"jmesnil", "url"=>"http://jmesnil.net/about/"}</name>
   </author>
-  <updated>2014-11-05T10:42:50+00:00</updated>
+  <updated>2014-11-17T10:25:51+00:00</updated>
   <link href="http://mobile-web-messaging.net/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://mobile-web-messaging.net/" rel="alternate" type="text/html" />
   <entry>
+    <id>http://mobile-web-messaging.net/news/2014/11/18/oreilly-webcast/</id>
+    <title>O'Reilly Webcast: Using Messaging Protocols to Build Mobile and Web Applications</title>
+    <updated>2014-11-17T10:25:51+00:00</updated>
+    <published>2014-11-18T08:41:09+00:00</published>
+    <link href="http://mobile-web-messaging.net/news/2014/11/18/oreilly-webcast/" rel="alternate" type="text/html" />
+    <summary>
+      On November 13th, I  presented a webcast for O&#39;Reilly about using messaging protocols to build mobile and web applications.
+      
+      This webcast can be watched for free or you can read the slides that were used for the presentation. They contain most of the information I talked about during this 1-hour long webcast.
+      
+      Thanks to the people at O&#39;Reilly (and especially Yasmina Greco) to setup this presentation, it was a great and fun experience.
+      ...
+    </summary>
+    <content type="html">
+      &lt;p&gt;On November 13&lt;sup&gt;th&lt;/sup&gt;, I  presented a webcast for &lt;a href=&quot;http://oreilly.com&quot;&gt;O'Reilly&lt;/a&gt; about &lt;a href=&quot;http://www.oreilly.com/pub/e/3151&quot;&gt;using messaging protocols to build mobile and web applications&lt;/a&gt;.&lt;/p&gt;
+      
+      &lt;p&gt;This webcast can be watched for free or you can read the &lt;a href=&quot;http://media.jmesnil.net/slides/2014-11-13_oreilly_webcast.pdf&quot;&gt;slides&lt;/a&gt; that were used for the presentation. They contain most of the information I talked about during this 1-hour long webcast.&lt;/p&gt;
+      
+      &lt;p&gt;Thanks to the people at O'Reilly (and especially Yasmina Greco) to setup this presentation, it was a great and fun experience.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
     <id>http://mobile-web-messaging.net/news/2014/11/05/oreilly-webcast/</id>
     <title>O'Reilly Webcast on November 13th</title>
-    <updated>2014-11-05T10:42:50+00:00</updated>
+    <updated>2014-11-17T10:25:51+00:00</updated>
     <published>2014-11-05T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/11/05/oreilly-webcast/" rel="alternate" type="text/html" />
     <summary>
@@ -41,7 +63,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2014/08/26/back-to-tech-school-sale/</id>
     <title>Back to (Tech) School Sale</title>
-    <updated>2014-11-05T10:42:50+00:00</updated>
+    <updated>2014-11-17T10:25:51+00:00</updated>
     <published>2014-08-26T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/08/26/back-to-tech-school-sale/" rel="alternate" type="text/html" />
     <summary>
@@ -63,7 +85,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/</id>
     <title>O'Reilly Book Page is Online</title>
-    <updated>2014-11-05T10:42:50+00:00</updated>
+    <updated>2014-11-17T10:25:51+00:00</updated>
     <published>2014-07-08T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2014/07/08/oreilly-book-page-is-online/" rel="alternate" type="text/html" />
     <summary>
@@ -97,7 +119,7 @@
   <entry>
     <id>http://mobile-web-messaging.net/news/2013/09/02/official-announcement/</id>
     <title>Official Announcement</title>
-    <updated>2014-11-05T10:42:50+00:00</updated>
+    <updated>2014-11-17T10:25:51+00:00</updated>
     <published>2013-09-02T08:41:09+00:00</published>
     <link href="http://mobile-web-messaging.net/news/2013/09/02/official-announcement/" rel="alternate" type="text/html" />
     <summary>
